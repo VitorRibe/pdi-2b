@@ -1,2 +1,42 @@
+### PyCharm ###
+# Ignora a pasta de configurações do PyCharm
+.idea/
+# Ignora arquivos de perfil e dicionários do usuário
+.idea/shelf/
+.idea/workspace.xml
+.idea/dictionaries/
+.idea/vcs.xml
+.idea/jsLibraryMappings.xml
+.idea/codeStyles/
+.idea/inspectionProfiles/
+
+### Python ###
+# Arquivos compilados (Bytecode)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ambientes virtuais (Venv)
+venv/
+.venv/
+env/
+.env/
+
+### Jupyter Notebook ###
+# Arquivos temporários e checkpoints do Jupyter
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+### Sistema ###
+# Arquivos do Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Arquivos do Linux
+.DS_Store
+
+# outros
 /docs
-/.venv
+/images
+
